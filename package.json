@@ -1,0 +1,29 @@
+{
+	"name": "auth-tutorial",
+	"version": "1.0.0",
+	"description": "",
+	"main": "backend/index.js",
+	"scripts": {
+		"dev": "NODE_ENV=development nodemon backend/index.js",
+		"start": "NODE_ENV=production node backend/index.js",
+		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+	},
+	"keywords": [],
+	"author": "",
+	"type": "module",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"crypto": "^1.0.1",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"jsonwebtoken": "^9.0.2",
+		"mailtrap": "^3.4.0",
+		"mongoose": "^8.5.2"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	}
+}
