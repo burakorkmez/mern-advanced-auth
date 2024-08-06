@@ -2,7 +2,7 @@
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[Video Tutorial on Youtube](https://youtu.be/0Kzd4k1YuCA)
+[Video Tutorial on Youtube](https://youtu.be/pmvEgZC55Cg)
 
 About This Course:
 
